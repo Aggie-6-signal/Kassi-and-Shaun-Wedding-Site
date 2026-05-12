@@ -262,7 +262,7 @@ textarea {
 .pastel-footer {
   text-align: center;
   padding: 45px 20px;
-  background: var: (--sage);
+  background: var(--sage);
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   margin-top: 70px;
