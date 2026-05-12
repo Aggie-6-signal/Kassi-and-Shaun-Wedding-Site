@@ -23,6 +23,7 @@ body.spring-whimsical-theme {
   --text-dark: #4a3f3f;
   --text-light: #7a6f6f;
   --white: #ffffff;
+  --sage: #9fa897;
 }
 
 /* -----------------------------------------
@@ -261,7 +262,7 @@ textarea {
 .pastel-footer {
   text-align: center;
   padding: 45px 20px;
-  background: #9fa897
+  background: var: (--sage);
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   margin-top: 70px;
