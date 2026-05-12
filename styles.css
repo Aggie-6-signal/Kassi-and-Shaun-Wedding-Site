@@ -101,7 +101,7 @@ font-style: normal;
 .date-location {
   margin-top: 10px;
   font-size: 1.1rem;
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
 /* -----------------------------------------
