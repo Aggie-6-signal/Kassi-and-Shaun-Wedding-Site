@@ -261,8 +261,7 @@ textarea {
 .pastel-footer {
   text-align: center;
   padding: 45px 20px;
-  background: linear-gradient(135deg, var(--mint), var(--lavender));
-  color: var(--text-dark);
+  background: #9fa897
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   margin-top: 70px;
