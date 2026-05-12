@@ -55,7 +55,7 @@ font-style: normal;
   display: block;
   width: 70px;
   height: 3px;
-  background: var(--gold);
+  background: var(--sage);
   margin: 14px auto 0;
   border-radius: 2px;
 }
