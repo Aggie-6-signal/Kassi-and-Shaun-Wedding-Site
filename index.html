@@ -62,9 +62,31 @@
           <p>Here come the Heaths!</p>
         <p>In case you missed it, watch the big moment when Shaun asked Kassi to marry him!</p>
 
-        <div style="width: 100%; height: 500px; overflow: hidden; border: none;">
-     <video controls style="width: 100%; height: 100%; transform: scale(3.5); object-fit: contain; display: block; border: none;">
-       
+        <style>.video-container
+          {width: 100%;
+           height: 500px;
+           overflow: hidden;
+           position: relative;
+          }
+        .proposal-video
+        {width: 100%;
+         height: 100%;
+         object-fit: contain;
+         display: block;
+         transform: scale(3.5); /* Desktop Zoom */
+        }
+          /* Mobile Specific Zoom */
+          @media (max-width: 768px) {
+            .proposal-video {
+              transform: scale(4.5); /* Higher zoom for verticle screens */
+            }
+            .video-container{
+              height: 400px; /* Adjust height for smaller screens */
+            }
+          }
+         </style>
+        <div class="video-container">
+          <video controls class="proposal video">
        <source src="proposal video.mp4" type="video/mp4"> Your browser does not support the video tag.</video>
       </div>
     </section>
