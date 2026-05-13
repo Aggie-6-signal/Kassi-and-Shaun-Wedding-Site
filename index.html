@@ -76,12 +76,8 @@
          transform: scale(1.5); /* Desktop Zoom */
         }
           /* Mobile Specific Zoom */
-          @media {
-            .proposal-video 
-            {width: 100%;
-             height: 100%;
-             object-fit: contain;
-             display: block;
+          @media {(max-width: 100%) {
+            .proposal-video {
               transform: scale(0); /* Higher zoom for verticle screens */
             }
             .video-container{
@@ -90,8 +86,8 @@
           }
          </style>
         <div class="video-container">
-       <video controls class="proposal video"
-         source src="proposal video 3.mp4" playsinline> Your browser does not support the video tag.</video>
+       <video controls playsinline class="proposal video"
+         source src="proposal video 3.mp4"> Your browser does not support the video tag.</video>
       </div>
     </section>
 
