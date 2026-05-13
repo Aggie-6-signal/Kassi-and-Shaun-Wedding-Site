@@ -78,7 +78,8 @@
           /* Mobile Specific Zoom */
           @media (max-width: 100%) {
             .proposal-video {
-              transform: scale(1.5); /* Higher zoom for verticle screens */
+              transform: scale(0); /* Higher zoom for verticle screens */
+              object-fit: contain;
             }
             .video-container{
               height: 200px; /* Adjust height for smaller screens */
