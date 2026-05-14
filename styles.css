@@ -266,7 +266,7 @@ textarea {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   margin-top: 70px;
-  font-family: "la-parisienne-script", sans-serif;
+   font-family: "la-parisienne-script", sans-serif;
   font-size: 1.2rem;
 }
 @media (max-width:600px) {.hero.pastle-hero {height: 250px;
